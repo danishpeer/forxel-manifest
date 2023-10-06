@@ -6,7 +6,7 @@ metadata:
     app: forxel
 spec:
   containers:
-    - name: frontend-container-1
+    - name: frontend-container
       image: danishpeer1/forxel:ui-v1 # Replace with your frontend container image and tag
       imagePullPolicy: Always
       ports:
